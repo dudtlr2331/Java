@@ -7,13 +7,13 @@ public class Ball extends Circle{
 		this.color = color;
 	}
 	
-	protected void findColor() {
+	public void findColor() {
 		System.out.println(color + "공이다.");
 	}
-	private void findArea() {
+	public void findArea() {
 		System.out.println("넓이는 (파이*반지름*반지름)이다.");
 	}
-	private void findVolume() {
+	public void findVolume() {
 		System.out.println("넓이는 (파이*반지름*반지름)이다.");
 	}
 }
