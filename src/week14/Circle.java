@@ -7,7 +7,7 @@ public class Circle {
 	protected void findRadius() {
 		System.out.println("반지름이 10.0 센티이다.");
 	}
-	private void findArea() {
+	public void findArea() {
 		System.out.println("넓이는 (파이*반지름*반지름)이다.");
 	}
 }
