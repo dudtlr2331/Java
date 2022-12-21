@@ -2,17 +2,17 @@ package week14;
 
 public class InheritanceDemo {
 	public static void main(String[] args) {
-		Circle c1 = new Circle();
-		Ball c2 = new Ball("說除儀");
+		Circle c = new Circle();
+		Ball b = new Ball("說除儀");
 		
 		System.out.println("錳 : ");
-		c1.findRadius();
-		c1.findArea();
+		c.findRadius();
+		c.findArea();
 		
 		System.out.println("\n 奢 : ");
-		c2.findRadius();
-		c2.findColor();
-		c2.findArea();
-		c2.findVolume();
+		b.findRadius();
+		b.findColor();
+		b.findArea();
+		b.findVolume();
 	}
 }
